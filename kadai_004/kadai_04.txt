@@ -1,0 +1,20 @@
+25239  mkdir git_challenge
+25240  cd git_challenge
+25241  git init
+25242  touch hello_world.txt
+25246  echo "Hello, world" > hello_world.txt\n
+25247  cat hello_world.txt
+25248  git add .
+25249  git ci -m "added hello_world.txt"
+25250  echo "こんにちは、世界！" >> hello_world.txt
+25251  cat hello_world.txt
+25252  git add .
+25253  git ci -m "modify 日本語訳を追加"
+25254  git remote add origin git@github.com:Tatsuya-kanaria/git-basic-kadai.git
+25255  git push -u origin main
+25256  git log
+25277  history | tail -100 > kadai_04.txt
+25278  nano kadai_04.txt
+25279  mkdir kadai_004                                                                              
+25280  mv kadai_04.txt kadai_004
+25281  ls -la ./kadai_004
